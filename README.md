@@ -41,6 +41,46 @@ Generate blogs, ads, social captions, and emails — powered by OpenAI and real-
 
 ---
 
+## Architecture Overview
+
+The system follows a full-stack client-server architecture with AI integration.
+
+1. **Frontend (React + Vite)**  
+   - Provides the user interface for content generation  
+   - Collects user inputs (content type, tone, industry, keywords)  
+   - Sends API requests to the backend  
+   - Displays generated content, variations, and SEO insights  
+
+2. **Backend (FastAPI)**  
+   - Handles authentication using JWT tokens  
+   - Processes user requests and routes them to appropriate services  
+   - Integrates with OpenAI for content generation  
+   - Fetches real-time Google Trends data using Pytrends  
+   - Applies business logic (trend injection, scoring, transformations)  
+
+3. **AI Layer (OpenAI API)**  
+   - Generates high-quality, context-aware marketing content  
+   - Supports multiple content formats and tone variations  
+
+4. **Trends Engine (Pytrends)**  
+   - Fetches trending keywords based on selected industry  
+   - Enhances prompts with real-time market signals  
+
+5. **Database (SQLite + SQLModel)**  
+   - Stores user accounts and saved projects  
+   - Enables dashboard functionality for content retrieval  
+
+6. **Deployment Layer**  
+   - Frontend deployed on Vercel  
+   - Backend deployed on Render  
+   - Environment variables used for secure configuration and API communication  
+
+### Data Flow
+
+User → Frontend → Backend → (OpenAI + Trends) → Backend → Frontend → User
+
+---
+
 ## Project Structure
 
 ``` text
