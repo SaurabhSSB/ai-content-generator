@@ -43,9 +43,6 @@ Generate blogs, ads, social captions, and emails — powered by OpenAI and real-
 
 ## Project Structure
 
-## Project Structure
-
-```text
 ai-content-generator/
 ├── backend/
 │   ├── main.py
