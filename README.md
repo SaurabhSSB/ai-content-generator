@@ -61,21 +61,6 @@ ai-content-generator/
 ├── .gitignore
 └── README.md
 
-ai-content-generator/
-├── backend/
-│   ├── main.py              
-│   ├── auth/                
-│   ├── content_generator/   
-│   ├── requirements.txt
-│   ├── Procfile             
-│   ├── runtime.txt          
-│   └── .env                 
-├── frontend/
-│   └── src/
-│       └── App.jsx          
-├── .gitignore
-└── README.md
-
 ---
 
 ## Deployment
