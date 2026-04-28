@@ -8,6 +8,10 @@ Generate blogs, ads, social captions, and emails — powered by OpenAI and real-
 🔗 **Live Demo:** [ai-content-generator](https://ai-content-generator-eight-alpha.vercel.app/)  
 🔧 **Backend API:** [ai-content-generator.onrender.com/docs](https://ai-content-generator-7efa.onrender.com/docs)
 
+## 🎥 Demo Video
+
+[![Watch the demo](https://cdn.loom.com/sessions/thumbnails/a56b1c6c68cc462881ba4011fd32d72f-with-play.gif)](https://www.loom.com/share/a56b1c6c68cc462881ba4011fd32d72f)
+
 ---
 
 ## Features
