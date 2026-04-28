@@ -10,7 +10,7 @@ Generate blogs, ads, social captions, and emails — powered by OpenAI and real-
 
 ## 🎥 Demo Video
 
-[![Watch the demo](https://cdn.loom.com/sessions/thumbnails/a56b1c6c68cc462881ba4011fd32d72f-with-play.gif)](https://www.loom.com/share/a56b1c6c68cc462881ba4011fd32d72f)
+🔗 Watch here: https://www.loom.com/share/a56b1c6c68cc462881ba4011fd32d72f
 
 ---
 
